@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^3.11.1-alpha.1",
+    "@react-three/fiber": "^9.0.0-alpha.8",
     "clsx": "^2.1.1",
     "framer-motion": "^12.0.0",
     "mini-svg-data-uri": "^1.4.4",
@@ -18,13 +20,15 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three-globe": "^2.41.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.172.0",
     "eslint": "^9",
     "eslint-config-next": "15.1.5",
     "postcss": "^8",
